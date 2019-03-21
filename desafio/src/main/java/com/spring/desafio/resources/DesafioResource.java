@@ -4,10 +4,11 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -18,31 +19,36 @@ import com.spring.desafio.services.DesafioService;
 
 @Configuration
 @EnableWebMvc
+//@RestController
 @RestController
-@RequestMapping(value="/palavras/")
+@CrossOrigin("*")
+@RequestMapping("/palavras")
 public class DesafioResource extends WebMvcConfigurerAdapter{
+//public class DesafioResource{
 	private char[] vogais = {'A','E','I','O','U'};
 	
 	
-	@Override
-	public void addCorsMappings(CorsRegistry registry) {
-		registry.addMapping("/**").allowedMethods("GET","POST","PUT","DELETE","OPTIONS", "HEAD", "TRACE", "CONNECT");
-	}
-	
+	  @Override public void addCorsMappings(CorsRegistry registry) {
+	  registry.addMapping("/**").allowedMethods("GET","POST","PUT","DELETE",
+	  "OPTIONS", "HEAD", "TRACE", "CONNECT"); }
+	 
 	@Autowired
 	private DesafioService service;
 	
 	
-	@RequestMapping(method=RequestMethod.GET)
-	public ResponseEntity<?> listar() {
+	//@RequestMapping(method=RequestMethod.GET)
+	@GetMapping
+	//public ResponseEntity<?> listar() {
+	public List<Desafio> listar() {
 		List<Desafio> obj = service.buscar();
-		return ResponseEntity.ok().body(obj);
+		//return ResponseEntity.ok().body(obj);
+		return obj;
 		 
 	}
 	
 	
-	@RequestMapping(value="/{palavra}", method=RequestMethod.POST)		
-	public ResponseEntity<?> validarPalavra(@PathVariable String palavra) {
+	@PostMapping(value="/{palavra}")	
+	public Desafio validarPalavra(@PathVariable String palavra) {
 		
 		long start = System.currentTimeMillis();
 		double tempoTotal;
@@ -94,7 +100,8 @@ public class DesafioResource extends WebMvcConfigurerAdapter{
 		                			
 		                			obj = service.salvar(obj);
 		                			
-		                			return ResponseEntity.ok().body(obj);
+		                			//return ResponseEntity.ok().body(obj);
+		                			return obj;
 		                		}
 	                		}
 	                	}
@@ -102,6 +109,7 @@ public class DesafioResource extends WebMvcConfigurerAdapter{
                 }
             }
         }
-        	return ResponseEntity.ok().body(obj);
+        	//return ResponseEntity.ok().body(obj);
+			return obj;
 		}
 }

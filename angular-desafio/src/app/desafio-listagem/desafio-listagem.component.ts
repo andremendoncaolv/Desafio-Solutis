@@ -19,7 +19,7 @@ export class DesafioListagemComponent implements OnInit {
     this.palavra = {};
     
     this.desafioService.listar()
-      .subscribe(dados => this.palavras = dados);
+      .subscribe(resposta => this.palavras = resposta);
   }
 
   validarPalavra(frm: FormGroup){

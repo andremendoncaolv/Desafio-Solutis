@@ -2490,3 +2490,90 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-03-21 00:45:57,546 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
 2019-03-21 00:47:59,704 [Worker-17: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
 2019-03-21 00:47:59,715 [Worker-17: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package
+2019-03-21 06:29:31,477 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-21 06:33:43,459 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:33:43,470 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 06:33:43,505 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 06:33:43,513 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:33:43,513 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 06:34:57,009 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:34:57,034 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 06:34:57,042 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 06:34:57,073 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:34:57,074 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 06:38:14,356 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:38:14,368 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 06:38:14,371 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 06:38:14,397 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:38:14,398 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 06:39:43,738 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-21 06:39:45,510 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.spring:desafio:0.0.1-SNAPSHOT @ /home/andre/desenv/desafio/pom.xml.
+2019-03-21 06:39:47,308 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /desafio/src/main/java
+2019-03-21 06:39:47,309 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /desafio/src/main/resources
+2019-03-21 06:39:47,310 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /desafio/src/main/resources
+2019-03-21 06:39:47,311 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /desafio/src/test/java
+2019-03-21 06:39:47,860 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2019-03-21 06:39:50,259 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:39:50,261 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 06:39:50,331 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 06:39:50,337 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:39:50,337 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 06:40:38,681 [Worker-10: Launching Executing clean in _home_andre_desenv_desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 06:40:38,683 [Worker-10: Launching Executing clean in _home_andre_desenv_desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2019-03-21 06:40:48,160 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:40:48,182 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 06:40:48,185 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 06:40:48,195 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 06:40:48,195 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 06:41:23,198 [Worker-3: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 06:41:23,198 [Worker-3: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package
+2019-03-21 07:09:08,515 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-21 07:10:51,172 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:10:51,183 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:10:51,231 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:10:51,237 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:10:51,239 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:12:24,934 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:12:24,985 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:12:25,013 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:12:25,020 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:12:25,020 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:13:01,241 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:13:01,243 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:13:01,244 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:13:01,249 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:13:01,265 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:14:31,887 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:14:31,888 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:14:31,906 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:14:31,916 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:14:31,916 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:16:50,784 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:16:50,785 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:16:50,787 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:16:50,795 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:16:50,795 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:17:33,477 [Worker-4: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 07:17:33,479 [Worker-4: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package
+2019-03-21 07:29:51,373 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:29:51,421 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 07:29:51,431 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 07:29:51,434 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 07:29:51,435 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 07:31:45,353 [Worker-4: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 07:31:45,353 [Worker-4: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package
+2019-03-21 20:03:51,401 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-21 20:04:08,579 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 20:04:08,611 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 20:04:08,677 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 20:04:08,684 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 20:04:08,684 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 20:04:39,921 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 20:04:39,937 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-21 20:04:39,944 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-21 20:04:39,948 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-21 20:04:39,949 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/andre/desenv/desafio/src/test/resources
+2019-03-21 20:05:11,671 [Worker-4: Launching Executing clean in _home_andre_desenv_desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 20:05:11,672 [Worker-4: Launching Executing clean in _home_andre_desenv_desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B clean
+2019-03-21 20:05:27,068 [Worker-7: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/andre/desenv/desafio
+2019-03-21 20:05:27,069 [Worker-7: Launching desafio] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B package

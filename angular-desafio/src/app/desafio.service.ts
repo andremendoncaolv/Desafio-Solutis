@@ -12,6 +12,7 @@ export class DesafioService {
 
   listar(){
     return this.http.get<any[]>(`${this.desafioUrl}`);
+    //return this.http.get<Array<any>>(this.desafioUrl);
   }
 
   validarPalavra(palavra: string){
