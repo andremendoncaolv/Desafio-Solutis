@@ -1,0 +1,80 @@
+package com.spring.desafio.domain;
+
+public class Desafio {
+	
+	private String palavra;
+	private String vogal;
+	private Double tempoTotal;
+	
+	public Desafio() {
+	}
+
+	public Desafio(String palavra, String vogal) {
+		super();
+		this.palavra = palavra;
+		this.vogal = vogal;
+	}
+
+	public String getPalavra() {
+		return palavra;
+	}
+
+	public void setPalavra(String palavra) {
+		this.palavra = palavra;
+	}
+
+	public String getVogal() {
+		return vogal;
+	}
+
+	public void setVogal(String vogal) {
+		this.vogal = vogal;
+	}
+
+	public Double getTempoTotal() {
+		return tempoTotal;
+	}
+
+	public void setTempoTotal(Double tempoTotal) {
+		this.tempoTotal = tempoTotal;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((palavra == null) ? 0 : palavra.hashCode());
+		result = prime * result + ((tempoTotal == null) ? 0 : tempoTotal.hashCode());
+		result = prime * result + ((vogal == null) ? 0 : vogal.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Desafio other = (Desafio) obj;
+		if (palavra == null) {
+			if (other.palavra != null)
+				return false;
+		} else if (!palavra.equals(other.palavra))
+			return false;
+		if (tempoTotal == null) {
+			if (other.tempoTotal != null)
+				return false;
+		} else if (!tempoTotal.equals(other.tempoTotal))
+			return false;
+		if (vogal == null) {
+			if (other.vogal != null)
+				return false;
+		} else if (!vogal.equals(other.vogal))
+			return false;
+		return true;
+	}
+	
+	
+}

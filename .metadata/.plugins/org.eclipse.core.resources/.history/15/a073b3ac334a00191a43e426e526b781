@@ -1,0 +1,42 @@
+package com.spring.desafio.domain;
+
+public class Desafio {
+	
+	private String palavra;
+	private String vogal;
+	private Double tempoTotal;
+	
+	public Desafio() {
+	}
+
+	public Desafio(String palavra, String vogal) {
+		super();
+		this.palavra = palavra;
+		this.vogal = vogal;
+	}
+
+	public String getPalavra() {
+		return palavra;
+	}
+
+	public void setPalavra(String palavra) {
+		this.palavra = palavra;
+	}
+
+	public String getVogal() {
+		return vogal;
+	}
+
+	public void setVogal(String vogal) {
+		this.vogal = vogal;
+	}
+
+	public Double getTempoTotal() {
+		return tempoTotal;
+	}
+
+	public void setTempoTotal(Double tempoTotal) {
+		this.tempoTotal = tempoTotal;
+	}
+	
+}

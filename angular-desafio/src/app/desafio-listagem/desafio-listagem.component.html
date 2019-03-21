@@ -1,0 +1,52 @@
+ 
+  <main role="main">
+    <section class="my-4">
+      <div class="container">
+          <h2>Validar Palavra</h2>
+      </div>
+    </section>
+  
+   <section>
+      <div class="container">
+        <form method="post" #frm="ngForm" (ngSubmit)="validarPalavra(frm)">
+          <div class="form-group">
+            <label for="descricao">Palavra</label>
+            <input type="text" id="palavra" name="palavra"
+              class="form-control" placeholder="palavra"
+              [(ngModel)]="palavra.palavra"/>
+          </div>
+      
+          <button type="submit" class="btn btn-primary"
+            [disabled]="frm.invalid">Validar</button>
+        </form>
+      </div>
+    </section>
+  
+    <section class="mt-5">
+      <div class="container">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead class="thead-light text-center">
+              <tr>
+                <th>Palavra</th>
+  
+                <th class="w-50">Vogal</th>
+  
+                <th class="w-25">Tempo</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr *ngFor="let p of palavras">
+                <td class="text-center w-25">{{p.palavra}}</td>
+  
+                <td>{{p.vogal}}</td>
+  
+                <td>{{p.tempoTotal}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
