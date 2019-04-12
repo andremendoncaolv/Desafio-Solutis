@@ -17,6 +17,7 @@ public class Desafio implements Serializable{
 	private String palavra;
 	private char vogal;
 	private Double tempoTotal;
+	private boolean palavraValida;
 	
 	public Desafio() {
 	}
@@ -83,6 +84,14 @@ public class Desafio implements Serializable{
 		} else if (!id.equals(other.id))
 			return false;
 		return true;
+	}
+
+	public boolean isPalavraValida() {
+		return palavraValida;
+	}
+
+	public void setPalavraValida(boolean palavraValida) {
+		this.palavraValida = palavraValida;
 	}
 	
 }
